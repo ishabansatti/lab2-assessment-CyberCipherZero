@@ -23,7 +23,7 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // convert value to int.
-    value = (value - 32) * 5 / 9
+    value = (int) value
     return value;
 }
 
