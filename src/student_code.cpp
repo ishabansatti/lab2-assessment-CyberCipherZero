@@ -24,7 +24,7 @@ char getCharValue() {
 int convertFloatToInt(float value) {
     // convert value to int.
     // return value;
-    int temp = (int) value;
+    int temp = value;
     return temp;
 }
 
