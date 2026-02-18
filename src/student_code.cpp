@@ -29,8 +29,8 @@ int convertFloatToInt(float value) {
 }
 
 float fahrenheitToCelsius(float fahrenheit) {
-    float celcius = (Fahrenheit - 32) * 5 / 9;
-    return celcius
+    float celsius = (Fahrenheit - 32)*5/9;
+    return celsius
 }
 
 /*
