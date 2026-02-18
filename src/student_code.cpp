@@ -28,11 +28,6 @@ int convertFloatToInt(float value) {
     return temp;
 }
 
-float fahrenheitToCelsius(float fahrenheit) {
-    float celsius = (Fahrenheit - 32)*5/9;
-    return celsius
-}
-
 /*
 Convert Fahrenheit to Celsius and store your answer in a variable celsius.
 
@@ -41,7 +36,8 @@ Formula:
 */
 float fahrenheitToCelsius(float fahrenheit) {
     //return celsius;
-
+    float celsius = (Fahrenheit - 32)*5/9;
+    return celsius;
 }
 
 // Assignment by M.Ali
